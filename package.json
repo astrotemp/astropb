@@ -6,6 +6,7 @@
   "scripts": {
     "win": "pocketbase serve",
     "win:update": "pocketbase update",
+    "permit": "chmod +x ./pocketbase",
     "dev": "./pocketbase serve",
     "dev:update": "./pocketbase update",
     "build": "pnpm -r run build"
