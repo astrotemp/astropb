@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": ".\\pocketbase serve",
+    "win": "pocketbase serve",
+    "win:update": "pocketbase update",
+    "dev": "./pocketbase serve",
+    "dev:update": "./pocketbase update",
     "build": "pnpm -r run build"
   },
   "keywords": [],
