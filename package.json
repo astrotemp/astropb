@@ -10,6 +10,9 @@
     "dev:update": "./pocketbase update",
     "build": "pnpm -r run build"
   },
+  "packageManager": {
+    "pnpm": "latest"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC"
