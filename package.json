@@ -10,9 +10,11 @@
     "dev:update": "./pocketbase update",
     "build": "pnpm -r run build"
   },
-  "packageManager": {
-    "pnpm": "8.15.3"
+ "engines": {
+    "node": ">=21.7.0",
+    "pnpm": ">=9.0.3"
   },
+  "packageManager": "pnpm@9.0.3",
   "keywords": [],
   "author": "",
   "license": "ISC"
