@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "win": "pocketbase serve",
-    "win:update": "pocketbase update",
     "permit": "chmod +x ./pocketbase",
-    "dev": "./pocketbase serve",
-    "dev:update": "./pocketbase update",
+    "dev": "./pocketbase serve --http=0.0.0.0:8090",
     "build": "pnpm -r run build"
   },
   "packageManager": "pnpm@9.0.2",
